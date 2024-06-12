@@ -1,3 +1,5 @@
+//Script found on NuData demo site June 12th
+//https://interactivefidemo.nudatasecurity.com/signin
 var ndjsStaticVersion = "sync-1"
   , nslyyidtyi = {};
 function nsbopifkz() {
@@ -1066,17 +1068,17 @@ var nslgfnpy = "submit"
   , nsviymj = "change"
   , nsdwh = "input"
   , nsbopif = {};
-nsbopif[NDS_LISTEN_FOCUS] = ["focus", "blur"];
-nsbopif[NDS_LISTEN_TOUCH] = ["touchstart"];
-nsbopif[NDS_LISTEN_KEYBOARD] = ["keydown", "keyup"];
-nsbopif[NDS_LISTEN_DEVICE_MOTION_SENSORS] = ["devicemotion", "deviceorientation"];
-nsbopif[NDS_LISTEN_MOUSE] = ["mousemove", "click"];
+nsbopif[NDS_LISTEN_FOCUS] = [nslgfnpyxj, nsviymjo];
+nsbopif[NDS_LISTEN_TOUCH] = [nslgfn];
+nsbopif[NDS_LISTEN_KEYBOARD] = [nslgfnpyx, nscavjyd];
+nsbopif[NDS_LISTEN_DEVICE_MOTION_SENSORS] = [nsfkg, nsfkgjoqrf];
+nsbopif[NDS_LISTEN_MOUSE] = [nslyy, nsbop];
 function nsejsnfwmi(a) {
     return a.replace(/[A-Za-z]/g, function(a) {
         return String.fromCharCode(a.charCodeAt(0) + ("M" >= a.toUpperCase() ? 13 : -13))
     })
 }
-nsbopif[NDS_LISTEN_FORM] = ["submit", "change", "input"];
+nsbopif[NDS_LISTEN_FORM] = [nslgfnpy, nsviymj, nsdwh];
 var ndoIsKeyIncluded = function(a, b, c) {
     return -1 !== b.indexOf(a.key) || -1 !== c.indexOf(a.keyCode) ? !0 : !1
 }
@@ -2490,7 +2492,7 @@ ndwts({
             "inputFieldName": "nds-pmd",
             "encodeData": true,
             "options": [],
-            "wt": "1.w-252422.1.2.Jy3v60TBbfj6Vt5JA1Wv4Q,,.g4_DLqGXNp27FqBEDBaouN38NFAAINt5veYA3UIiIG3QdYtHXxrzgAG1KqKQjOj5CDE-hnqu2J8Q96gmrzLe-77NzdcL3MF911dvo_PY7PfWWqmb1va535oahf3iSBkeUxDiKQYRBh_HEOfcAiz0dK3ALM_79RB494AdTIJReqWB6Xw5TIn6TiSUQm6h1d-db36QR5SB1cWa8sMG4vE7n0kpT9KDEO-RL7OmXvMCiFCNiEB4K0bv77lq5wHenEFU",
+            "wt": "1.w-252422.1.2.y6Xiry5FkNq5ilFIHZEfiA,,.oXlFHrA1GUj2W9DbJtUTRuyAFtQToyaoLntn42xAcUyC_1BjBjqoB3sxH2d3w9OiXIOIaq3JA7NEtdJ1EJyM7sLnFjReCLz-Vpcoafn7uqD66rWx2MosOoc4pHwoQjcAhq68qaD8kgDM0YIHqGT92xJX5llhJAFVfkLyj3TyPYXuZ84rAga6DDzd-nzPQpwol3FfHALdbrvUqiNdkL4FSIoYSXIIn1613jFY66OKocW8sdPxo-IQQ64BDvtyK28k",
             "requireWidgetToken": true
         }
     },

@@ -1,4 +1,5 @@
 /*! nid.js 5.2.4-1912-578cdf8 | (c) Neuro-ID | www.neuro-id.com */
+//Script found on BILTRewards found May 15th https://id.biltrewards.com/login/enter-email/
 !function(n) {
     var i = {};
     function r(t) {

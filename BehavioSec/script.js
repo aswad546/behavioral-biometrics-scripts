@@ -1,3 +1,5 @@
+//Script found on cibc website: https://www.cibconline.cibc.com/ebm-resources/online-banking/client/index.html#/auth/signon?msgId=0008 
+//Found on May 22
 var td_0b = td_0b || {};
 td_0b.td_1e = function(td_A, td_G) {
     try {

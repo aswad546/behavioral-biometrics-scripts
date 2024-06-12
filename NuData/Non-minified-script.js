@@ -1,3 +1,5 @@
+//Script found on Singapore Air found on 15th May
+//https://www.singaporeair.com/en_UK/ca/home#/book/bookflight
 /**
  * IPR Config key in Page Mode Data
  * @type {string}
